@@ -9,11 +9,11 @@ public class MapDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Student st=new Student(11, "¹şÀû", 'ÄĞ', 20, 50.0);
+		Student st=new Student(11, "åˆ˜å¾·å", 'ç”·', 20, 50.0);
 		Map m = new HashMap();
-		m.put("¹şÀû", st);
+		m.put("åˆ˜å¾·å", st);
 		m.put("GG", 11);
-		//¼üÖµ¶Ô²»ĞíÖØ¸´£¬·ñÕßºóÀ´µÄ¼üÖµ»á°ÑÖ®Ç°µÄ¼üÖµ¸²¸Ç
+		//ï¿½ï¿½Öµï¿½Ô²ï¿½ï¿½ï¿½ï¿½Ø¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ßºï¿½ï¿½ï¿½ï¿½Ä¼ï¿½Öµï¿½ï¿½ï¿½Ö®Ç°ï¿½Ä¼ï¿½Öµï¿½ï¿½ï¿½ï¿½
 		m.put("GG", 22);
 		System.out.println(m.get("GG").toString());
 	}
